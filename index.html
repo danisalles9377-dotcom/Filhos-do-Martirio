@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filhos do Martírio</title>
+  <meta name="description" content="Arquivo investigativo — Filhos do Martírio">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="vignette"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#inicio">
+      <img src="assets/simbolo-culto.jpg" alt="Símbolo dos Filhos do Martírio">
+      <span>FILHOS DO MARTÍRIO</span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+    <nav id="nav">
+      <a href="#inicio">Início</a>
+      <a href="#caso">O Caso</a>
+      <a href="#arquivos">Arquivos</a>
+      <a href="#culto">O Culto</a>
+      <a href="#ritual">O Ritual</a>
+      <a href="#locais">Locais</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-symbol">
+        <img src="assets/simbolo-culto.jpg" alt="">
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow">ARQUIVO NÃO CLASSIFICADO</p>
+        <h1>FILHOS<br><span>DO MARTÍRIO</span></h1>
+        <p class="subtitle">Algumas verdades não deveriam ser encontradas.</p>
+        <a class="button" href="#caso">INICIAR INVESTIGAÇÃO</a>
+      </div>
+      <div class="scroll-hint">DESÇA <span>↓</span></div>
+    </section>
+
+    <section id="caso" class="section case">
+      <div class="section-label">01 / O CASO</div>
+      <div class="section-grid">
+        <div>
+          <h2>Há algo errado<br><em>com esta história.</em></h2>
+        </div>
+        <div class="text">
+          <p>Desaparecimentos. Relatos contraditórios. Um símbolo que aparece onde não deveria.</p>
+          <p>As primeiras pistas apontam para um grupo que não aparece em registros comuns: <strong>os Filhos do Martírio</strong>.</p>
+          <p>Quanto mais a investigação avança, mais claro fica que os desaparecimentos não são acontecimentos isolados.</p>
+          <div class="warning">
+            <span>⚠</span>
+            <div><b>AVISO</b><br>Alguns arquivos desta página podem estar incompletos ou corrompidos.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="arquivos" class="section archives">
+      <div class="section-label">02 / ARQUIVOS</div>
+      <div class="section-heading">
+        <h2>Fragmentos encontrados</h2>
+        <p>Nem toda informação chegou inteira.</p>
+      </div>
+      <div class="archive-grid">
+        <button class="archive-card" data-modal="arquivo1">
+          <span class="file-type">DOCUMENTO</span>
+          <h3>Relatório 001</h3>
+          <p>Primeira referência ao símbolo.</p>
+          <span class="locked">ABRIR ARQUIVO →</span>
+        </button>
+        <button class="archive-card" data-modal="arquivo2">
+          <span class="file-type">DEPOIMENTO</span>
+          <h3>Testemunha 07</h3>
+          <p>“Eles falavam sobre uma bênção.”</p>
+          <span class="locked">ABRIR ARQUIVO →</span>
+        </button>
+        <button class="archive-card classified" data-modal="arquivo3">
+          <span class="file-type">CLASSIFICADO</span>
+          <h3>CAIO</h3>
+          <p>Registro parcialmente apagado.</p>
+          <span class="locked">ACESSO RESTRITO →</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="culto" class="section cult">
+      <div class="cult-symbol">
+        <img src="assets/simbolo-culto.jpg" alt="Símbolo dos Filhos do Martírio">
+      </div>
+      <div class="section-label">03 / O CULTO</div>
+      <div class="cult-content">
+        <h2>FILHOS<br><span>DO MARTÍRIO</span></h2>
+        <p>Uma seita que acredita que a dor, o sacrifício e o vínculo humano são caminhos para alcançar algo que chamam de <strong>Martírio</strong>.</p>
+        <p>O culto foi criado por <strong>Caio</strong>. Seus seguidores preservam uma tradição que depende de um vínculo específico — alguém próximo ao fundador.</p>
+        <div class="quote">“O vínculo é a chave. O sacrifício é a porta.”</div>
+      </div>
+    </section>
+
+    <section id="ritual" class="section ritual">
+      <div class="section-label">04 / O RITUAL</div>
+      <div class="ritual-box">
+        <div class="ritual-top">
+          <span>PROTOCOLO // MARTÍRIO</span>
+          <span class="status">STATUS: INCOMPLETO</span>
+        </div>
+        <h2>MEIA-NOITE<br><span>É O LIMITE.</span></h2>
+        <p>Para concluir o ritual, os seguidores precisam sacrificar alguém que possua um laço profundo com Caio e completar a cerimônia antes da meia-noite.</p>
+        <p>O que acontece depois permanece descrito apenas em fragmentos.</p>
+        <div class="countdown" id="countdown">
+          <div><b id="hours">00</b><small>HORAS</small></div>
+          <i>:</i>
+          <div><b id="minutes">00</b><small>MIN</small></div>
+          <i>:</i>
+          <div><b id="seconds">00</b><small>SEG</small></div>
+        </div>
+        <p class="countdown-note">CONTAGEM DE AMBIENTAÇÃO — DEFINIDA PELO MESTRE</p>
+      </div>
+    </section>
+
+    <section id="locais" class="section locations">
+      <div class="section-label">05 / LOCAIS</div>
+      <div class="section-heading">
+        <h2>Pontos de interesse</h2>
+        <p>Alguns lugares parecem aparecer em mais de um arquivo.</p>
+      </div>
+      <div class="location-list">
+        <article><span>01</span><h3>LOCAL DESCONHECIDO</h3><p>Coordenadas removidas.</p></article>
+        <article><span>02</span><h3>CASA DE CAIO</h3><p>Registro incompleto.</p></article>
+        <article><span>03</span><h3>LOCAL DO RITUAL</h3><p>Informação bloqueada.</p></article>
+      </div>
+    </section>
+
+    <section class="final-warning">
+      <img src="assets/simbolo-culto.jpg" alt="">
+      <p>SE VOCÊ ENCONTROU ESTE SÍMBOLO, A INVESTIGAÇÃO JÁ COMEÇOU.</p>
+      <span>FILHOS DO MARTÍRIO</span>
+    </section>
+  </main>
+
+  <footer>
+    <span>FILHOS DO MARTÍRIO</span>
+    <span>ARQUIVO DE INVESTIGAÇÃO // 001</span>
+  </footer>
+
+  <div class="modal" id="modal">
+    <div class="modal-card">
+      <button class="close" aria-label="Fechar">×</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
